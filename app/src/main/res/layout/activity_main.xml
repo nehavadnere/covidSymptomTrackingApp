@@ -19,20 +19,14 @@
         app:layout_constraintVertical_bias="0.732" />
 
     <LinearLayout
-        android:layout_width="323dp"
-        android:layout_height="204dp"
+        android:layout_width="318dp"
+        android:layout_height="150dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/upload_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.329">
-
-        <Button
-            android:id="@+id/temp_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Measure Temperature" />
 
         <Button
             android:id="@+id/heartbeat_button"
